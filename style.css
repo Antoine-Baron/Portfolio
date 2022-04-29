@@ -1,0 +1,277 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    #bodyAccueil {
+        background-color: #FBAB7E;
+        background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+        min-height: 100vh;
+        height: 100%;
+    }
+    
+    #titreAccueil {
+        text-align: center;
+        color: black;
+    }
+    
+    #barreNav {
+        height: 50px;
+        width: 40%;
+        background-color: whitesmoke;
+        border: 2px solid black;
+        border-radius: 50px;
+        margin: 0 auto;
+    }
+    
+    #navLink {
+        text-align: center;
+        font-size: xx-large;
+    }
+    
+    #intro {
+        color: black;
+        text-align: center;
+        font-size: xx-large;
+        margin-top: 8%;
+    }
+    
+    #pres {
+        width: 40%;
+        height: 40%;
+        border: 2px solid black;
+        margin: 0 auto;
+        margin-top: 5%;
+        background-color: rgba(255, 255, 255, 0.116);
+        border-radius: 50px;
+    }
+    
+    #jeMePresente {
+        color: black;
+        font-size: xx-large;
+        margin-top: 0%;
+        text-align: center;
+    }
+    
+    #lienBTS-accueil,
+    #lienCompetences-accueil,
+    #lienStages-accueil,
+    #lienVeille-accueil {
+        text-decoration: none;
+    }
+    
+    #lienAccueil-bts,
+    #lienCompetences-bts,
+    #lienStages-bts,
+    #lienVeille-bts {
+        text-decoration: none;
+    }
+    
+    #lienAccueil-stages,
+    #lienCompetences-stages,
+    #lienBTS-stages,
+    #lienVeille-stages {
+        text-decoration: none;
+    }
+    
+    #lienAccueil-competences,
+    #lienStages-competences,
+    #lienBTS-competences,
+    #lienVeille-competences {
+        text-decoration: none;
+    }
+    
+    #lienAccueil-veille,
+    #lienStages-veille,
+    #lienBTS-veille,
+    #lienCompetences-veille {
+        text-decoration: none;
+    }
+    
+    #presBTS {
+        font-size: xx-large;
+        color: black;
+        text-align: center;
+    }
+    
+    #divPresBTS {
+        width: 1250px;
+        height: 420px;
+        border: 2px solid black;
+        margin-left: 18.5%;
+        margin-top: 1%;
+        background-color: rgba(255, 255, 255, 0.116);
+        border-radius: 50px;
+    }
+    
+    #txtPresBTS {
+        font-size: xx-large;
+        color: black;
+        text-align: center;
+    }
+    
+    #linkBTS {
+        font-size: xx-large;
+        color: black;
+        margin-left: 28.5%;
+    }
+    
+    #tableStage {
+        margin: 0 auto;
+        margin-top: 5%;
+        color: black;
+        border-color: black;
+        background-color: rgba(255, 255, 255, 0.116);
+        width: 70%;
+    }
+    
+    td {
+        border-collapse: collapse;
+        border: 2px solid black;
+        width: 50%;
+    }
+    
+    #stage1annee,
+    #stage2annee {
+        text-align: center;
+        color: black;
+        font-size: xx-large;
+    }
+    
+    #desc1stage,
+    #desc2stage {
+        color: black;
+        text-align: center;
+        font-size: xx-large;
+    }
+    
+    #rppStage {
+        margin: 0 auto;
+        margin-top: 2%;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.116);
+    }
+    
+    #telRapport {
+        color: black;
+        text-align: center;
+    }
+    
+    #telRapport {
+        text-decoration: none;
+    }
+    
+    #rppStage {
+        margin-top: -0.005%;
+    }
+    
+    #rapport1,
+    #rapport2 {
+        height: 20%;
+        width: 17%;
+    }
+    
+    #rapp1,
+    #rapp2 {
+        text-align: center;
+    }
+    
+    #titre1-Veille,
+    #txtveille {
+        font-size: xx-large;
+        color: black;
+        text-align: center;
+    }
+    
+    #divVeille,
+    #outilVeille,
+    #sujetVeille {
+        width: 1250px;
+        height: 350px;
+        border: 2px solid black;
+        margin-left: 18.5%;
+        margin-top: 1%;
+        background-color: rgba(255, 255, 255, 0.116);
+        border-radius: 50px;
+    }
+    
+    #linkVeille {
+        border-collapse: collapse;
+        border: 2px solid black;
+        margin: 0 auto;
+        border-radius: 50px;
+    }
+    
+    #sujetInter {
+        color: black;
+        text-align: center;
+        font-size: xx-large;
+    }
+    
+    #imgCV {
+        height: 20%;
+        width: 17%;
+        margin-top: 5%;
+    }
+    
+    #cv {
+        text-align: center;
+    }
+    
+    #monCV {
+        text-align: center;
+        color: black;
+        font-size: x-large;
+    }
+    
+    #LES {
+        margin-left: 2%;
+    }
+    
+    #leLezard {
+        margin-left: 2%;
+    }
+    
+    #openEdition {
+        margin-left: 2%;
+    }
+    
+    #TechInge {
+        margin-left: 2%;
+    }
+    
+    #linkVeille {
+        background-color: rgba(255, 255, 255, 0.116);
+    }
+    
+    #article {
+        text-align: center;
+    }
+    
+    #exel-competence {
+        height: 30%;
+        width: 30%;
+    }
+    
+    #excel {
+        text-align: center;
+    }
+    
+    #competences, #preuves {
+        text-align: center;
+        color: black;
+        font-size: xx-large;
+    }
+ 
+    #td-comp1, #td-comp2 {
+        border: none;
+    }
+
+    #access-drive {
+        text-align: center;
+    }
+
+    #table-compétences {
+        margin-top: 7%;
+    }
